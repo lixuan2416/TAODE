@@ -16,7 +16,7 @@ Please check `scripts/build_essential.sh` for the setup of the environment.
 
 Please read `./analyzer/Makefile` to learn how to compile the analyzer.
 
-General command —— `./build/lib/analyzer -dump-leakers ./IR_dir`.
+General command —— `./build/lib/analyzer -dump-leakers ./IR_dir`. （PS: As TAODE cannot automatically compile Linux kernel source into LLVM IR, you can refer to [deadline](https://github.com/sslab-gatech/deadline) to compile it.）
 
 ### Technical details
 
