@@ -22,5 +22,5 @@ build_ka_func = \
 
 all: analyzer
 
-analyzer:
+analyzer: 
 	$(call build_ka_func, ${SRC_DIR}, ${BUILD_DIR})

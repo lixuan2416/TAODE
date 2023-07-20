@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 # Download and extract a tarball to specified destination
 function download() {

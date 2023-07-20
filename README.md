@@ -22,3 +22,4 @@ General command —— `./build/lib/analyzer -dump-leakers ./IR_dir`. （PS: As 
 
 First, TAODE employs the two-layer type analysis to construct control-flow graph and the LLVM built-in alias analysis pass to do alias analysis. Then, TAODE performs inter-procedural control-flow and data-flow analysis to explore the allocation path and the release path of Thanos objects, which is the main part of TAODE. In the mean time, TAODE can collect the constraints of their field members on release paths. Finally, TAODE can pair the vulnerabilities with suitable Thanos objects, with the given vulnerability capability.
 
+  
